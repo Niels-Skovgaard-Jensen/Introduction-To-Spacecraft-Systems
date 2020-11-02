@@ -1,0 +1,17 @@
+clear all; close all;
+
+M = 3
+
+trellis=poly2trellis(M+1,[17,15]) 
+%y =  [1,0,1,1,1,0,0,1,0,0,1,0,1,0,1,1,1,1]
+y =  [1 1 1 1 1 0 1 1 1 0 0 1 0 1 1 1 1 1]
+inf=vitdec(y,trellis,length(y)/2,'term','hard')
+
+
+disp('Decoded');
+disp(y(1:0.5*end));
+disp('Corrected');
+disp(inf);
+disp('Truth Table 0 means a code correction');
+test = (y(1:0.5*end) == inf);
+disp(test);
