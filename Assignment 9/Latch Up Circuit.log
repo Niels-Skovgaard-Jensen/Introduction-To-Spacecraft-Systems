@@ -1,0 +1,22 @@
+Circuit: * C:\Users\Niels\Google Drive\Introduction To Spacecraft Systems\Assignment 9\Latch Up Circuit.asc
+
+A1: all pins shorted together -- ignoring.
+Error on line 17 : r10 n009 0 v(vresistance)
+	 Unable to find definition of model "v"
+	
+	*  Unknown parameter "vresistance"
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v2.  Increasing period to 0.0001
+Limiting rise time of source v2 to 2.03288e-020
+Limiting fall time of source v2 to 2.03288e-020
+WARNING: Node NC_02 is floating.
+WARNING: Node NC_04 is floating.
+WARNING: Node NC_06 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by D2.
+WARNING: Less than two connections to node NC_02.  This node is used by D2.
+WARNING: Less than two connections to node NC_03.  This node is used by D3.
+WARNING: Less than two connections to node NC_04.  This node is used by D3.
+WARNING: Less than two connections to node NC_05.  This node is used by R2.
+WARNING: Less than two connections to node NC_06.  This node is used by R2.
+WARNING: Less than two connections to node VRESISTANCE.  This node is used by V4.
+Fatal Error: Missing resistance value for "R10"
