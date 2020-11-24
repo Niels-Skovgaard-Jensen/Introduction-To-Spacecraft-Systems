@@ -26,19 +26,24 @@ plt.title('SPPO vs Distance from planet orbit')
 plt.xlabel('$R/r_p$')
 plt.ylabel('Percent of Ideal Power Per Orbit')
 plt.savefig('SPPOvsDistance.eps', format='eps')
+plt.rc('font', size=12)
 
-f = plt.figure()
 
-R = np.linspace(1,5,1000)
-
+fig, ax1 = plt.subplots()
+R = np.linspace(1,3,1000)
 batCap = 0.110; #Battery Capacity in KWh/Kg
 batMass = 10; #Mass of battery in Kg
-
-plt.plot(R,batCap*batMass/(1-SPPO))
+ax1.plot(R,batCap*batMass/(1-SPPO))
 plt.xlim(1,np.max(R))
-plt.grid(True, 'both')
-plt.title('Average Power Allowed by batteries [KWh]')
+ax1.grid(True, 'both')
+plt.title('Average Power Allowed by batteries')
 plt.xlabel('$R/r_{p}$')
-plt.ylabel('Average Power Allowed by batteries [KWh]')
+plt.ylabel('Average Power[KWh/orbit]')
 plt.savefig('AveragePower.eps', format='eps')
 plt.rc('font', size=12)
+
+
+ax2 = ax1.twinx() 
+
+ax2.plot(R,1/(1-SPPO))
+ax2.

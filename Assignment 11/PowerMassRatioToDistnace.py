@@ -32,7 +32,10 @@ plt.plot(R,np.ones([R.size,1])*p_battery)
 plt.xlim(1,10)
 plt.ylim(0,230)
 plt.grid(True,'both')
+plt.rc('font', size=12)
 plt.title('Watt per Kilo vs Distance from earth')
 lgndNames = ['Test1','test2']
 plt.legend(['Solar Panels','RTG','Batteries','Fuel Cell'])
 plt.savefig('powerMassRatio.eps', format='eps')
+
+

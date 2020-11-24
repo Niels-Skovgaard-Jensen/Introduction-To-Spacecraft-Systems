@@ -1,7 +1,7 @@
 %!PS-Adobe-3.0 EPSF-3.0
 %%Title: AveragePower.eps
-%%Creator: matplotlib version 3.2.2, http://matplotlib.org/
-%%CreationDate: Mon Nov 23 10:20:10 2020
+%%Creator: matplotlib version 3.3.1, http://matplotlib.org/
+%%CreationDate: Tue Nov 24 14:10:06 2020
 %%Orientation: portrait
 %%BoundingBox: 90.0 252.0 522.0 540.0
 %%EndComments
@@ -14,17 +14,17 @@ mpldict begin
 /c { curveto } bind def
 /cl { closepath } bind def
 /box {
-m
-1 index 0 r
-0 exch r
-neg 0 r
-cl
-} bind def
+      m
+      1 index 0 r
+      0 exch r
+      neg 0 r
+      cl
+    } bind def
 /clipbox {
-box
-clip
-newpath
-} bind def
+      box
+      clip
+      newpath
+    } bind def
 %!PS-Adobe-3.0 Resource-Font
 %%Title: DejaVu Sans
 %%Copyright: Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved. DejaVu changes are in public domain 
@@ -42,7 +42,7 @@ newpath
 /FontMatrix[.001 0 0 .001 0 0]def
 /FontBBox[-1021 -463 1793 1232]def
 /FontType 3 def
-/Encoding [ /space /period /slash /zero /one /two /three /four /five /A /K /P /W /bracketleft /bracketright /a /b /d /e /g /h /i /l /o /r /s /t /v /w /y ] def
+/Encoding [ /space /period /slash /zero /one /two /three /five /seven /A /K /P /W /bracketleft /bracketright /a /b /d /e /g /h /i /l /o /r /s /t /v /w /y ] def
 /FontInfo 10 dict dup begin
 /FamilyName (DejaVu Sans) def
 /FullName (DejaVu Sans) def
@@ -162,24 +162,6 @@ _cl}_e}_d
 539 513 527 479 504 451 _c
 481 423 448 403 406 393 _c
 _cl}_e}_d
-/four{636 0 49 0 580 729 _sc
-378 643 _m
-129 254 _l
-378 254 _l
-378 643 _l
-352 729 _m
-476 729 _l
-476 254 _l
-580 254 _l
-580 172 _l
-476 172 _l
-476 0 _l
-378 0 _l
-378 172 _l
-49 172 _l
-49 267 _l
-352 729 _l
-_cl}_d
 /five{{636 0 77 -13 549 729 _sc
 108 729 _m
 495 729 _l
@@ -205,6 +187,16 @@ _cl}_d
 162 384 135 375 108 363 _c
 108 729 _l
 _cl}_e}_d
+/seven{636 0 82 0 551 729 _sc
+82 729 _m
+551 729 _l
+551 687 _l
+286 0 _l
+183 0 _l
+432 646 _l
+82 646 _l
+82 729 _l
+_cl}_d
 /A{684 0 8 0 676 729 _sc
 342 632 _m
 208 269 _l
@@ -797,11 +789,12 @@ grestore
 12.000 scalefont
 setfont
 gsave
-44.453125 19.875000 translate
+40.632812 19.875000 translate
 0.000000 rotate
 0.000000 0 m /one glyphshow
 7.634766 0 m /period glyphshow
 11.449219 0 m /zero glyphshow
+19.083984 0 m /zero glyphshow
 grestore
 2 setlinecap
 0.690 setgray
@@ -834,11 +827,12 @@ grestore
 95.85 36 o
 grestore
 gsave
-86.303125 19.875000 translate
+82.482812 19.875000 translate
 0.000000 rotate
 0.000000 0 m /one glyphshow
 7.634766 0 m /period glyphshow
-11.449219 0 m /five glyphshow
+11.449219 0 m /two glyphshow
+19.083984 0 m /five glyphshow
 grestore
 2 setlinecap
 0.690 setgray
@@ -871,11 +865,12 @@ grestore
 137.7 36 o
 grestore
 gsave
-128.153125 19.875000 translate
+124.332813 19.875000 translate
 0.000000 rotate
-0.000000 0 m /two glyphshow
+0.000000 0 m /one glyphshow
 7.634766 0 m /period glyphshow
-11.449219 0 m /zero glyphshow
+11.449219 0 m /five glyphshow
+19.083984 0 m /zero glyphshow
 grestore
 2 setlinecap
 0.690 setgray
@@ -908,11 +903,12 @@ grestore
 179.55 36 o
 grestore
 gsave
-170.003125 19.875000 translate
+166.182812 19.875000 translate
 0.000000 rotate
-0.000000 0 m /two glyphshow
+0.000000 0 m /one glyphshow
 7.634766 0 m /period glyphshow
-11.449219 0 m /five glyphshow
+11.449219 0 m /seven glyphshow
+19.083984 0 m /five glyphshow
 grestore
 2 setlinecap
 0.690 setgray
@@ -945,11 +941,12 @@ grestore
 221.4 36 o
 grestore
 gsave
-211.853125 19.875000 translate
+208.032813 19.875000 translate
 0.000000 rotate
-0.000000 0 m /three glyphshow
+0.000000 0 m /two glyphshow
 7.634766 0 m /period glyphshow
 11.449219 0 m /zero glyphshow
+19.083984 0 m /zero glyphshow
 grestore
 2 setlinecap
 0.690 setgray
@@ -982,11 +979,12 @@ grestore
 263.25 36 o
 grestore
 gsave
-253.703125 19.875000 translate
+249.882812 19.875000 translate
 0.000000 rotate
-0.000000 0 m /three glyphshow
+0.000000 0 m /two glyphshow
 7.634766 0 m /period glyphshow
-11.449219 0 m /five glyphshow
+11.449219 0 m /two glyphshow
+19.083984 0 m /five glyphshow
 grestore
 2 setlinecap
 0.690 setgray
@@ -1019,11 +1017,12 @@ grestore
 305.1 36 o
 grestore
 gsave
-295.553125 19.875000 translate
+291.732813 19.875000 translate
 0.000000 rotate
-0.000000 0 m /four glyphshow
+0.000000 0 m /two glyphshow
 7.634766 0 m /period glyphshow
-11.449219 0 m /zero glyphshow
+11.449219 0 m /five glyphshow
+19.083984 0 m /zero glyphshow
 grestore
 2 setlinecap
 0.690 setgray
@@ -1056,11 +1055,12 @@ grestore
 346.95 36 o
 grestore
 gsave
-337.403125 19.875000 translate
+333.582813 19.875000 translate
 0.000000 rotate
-0.000000 0 m /four glyphshow
+0.000000 0 m /two glyphshow
 7.634766 0 m /period glyphshow
-11.449219 0 m /five glyphshow
+11.449219 0 m /seven glyphshow
+19.083984 0 m /five glyphshow
 grestore
 2 setlinecap
 0.690 setgray
@@ -1093,11 +1093,12 @@ grestore
 388.8 36 o
 grestore
 gsave
-379.253125 19.875000 translate
+375.432813 19.875000 translate
 0.000000 rotate
-0.000000 0 m /five glyphshow
+0.000000 0 m /three glyphshow
 7.634766 0 m /period glyphshow
 11.449219 0 m /zero glyphshow
+19.083984 0 m /zero glyphshow
 grestore
 gsave
 209.900000 4.375000 translate
@@ -1142,7 +1143,7 @@ translate
 0.8 setlinewidth
 1 setlinejoin
 0 setlinecap
-0 0 m
+-0 0 m
 -3.5 0 l
 
 gsave
@@ -1177,7 +1178,7 @@ translate
 0.8 setlinewidth
 1 setlinejoin
 0 setlinecap
-0 0 m
+-0 0 m
 -3.5 0 l
 
 gsave
@@ -1213,7 +1214,7 @@ translate
 0.8 setlinewidth
 1 setlinejoin
 0 setlinecap
-0 0 m
+-0 0 m
 -3.5 0 l
 
 gsave
@@ -1249,7 +1250,7 @@ translate
 0.8 setlinewidth
 1 setlinejoin
 0 setlinecap
-0 0 m
+-0 0 m
 -3.5 0 l
 
 gsave
@@ -1285,7 +1286,7 @@ translate
 0.8 setlinewidth
 1 setlinejoin
 0 setlinecap
-0 0 m
+-0 0 m
 -3.5 0 l
 
 gsave
@@ -1321,7 +1322,7 @@ translate
 0.8 setlinewidth
 1 setlinejoin
 0 setlinecap
-0 0 m
+-0 0 m
 -3.5 0 l
 
 gsave
@@ -1357,7 +1358,7 @@ translate
 0.8 setlinewidth
 1 setlinejoin
 0 setlinecap
-0 0 m
+-0 0 m
 -3.5 0 l
 
 gsave
@@ -1376,7 +1377,7 @@ gsave
 7.634766 0 m /five glyphshow
 grestore
 gsave
-25.218750 16.485625 translate
+25.218750 65.845000 translate
 90.000000 rotate
 0.000000 0 m /A glyphshow
 7.458984 0 m /v glyphshow
@@ -1391,33 +1392,17 @@ gsave
 67.248047 0 m /w glyphshow
 77.062500 0 m /e glyphshow
 84.445312 0 m /r glyphshow
-89.378906 0 m /space glyphshow
-93.193359 0 m /A glyphshow
-101.402344 0 m /l glyphshow
-104.736328 0 m /l glyphshow
-108.070312 0 m /o glyphshow
-115.412109 0 m /w glyphshow
-125.226562 0 m /e glyphshow
-132.609375 0 m /d glyphshow
-140.226562 0 m /space glyphshow
-144.041016 0 m /b glyphshow
-151.658203 0 m /y glyphshow
-158.759766 0 m /space glyphshow
-162.574219 0 m /b glyphshow
-170.191406 0 m /a glyphshow
-177.544922 0 m /t glyphshow
-182.250000 0 m /t glyphshow
-186.955078 0 m /e glyphshow
-194.337891 0 m /r glyphshow
-199.271484 0 m /i glyphshow
-202.605469 0 m /e glyphshow
-209.988281 0 m /s glyphshow
-216.240234 0 m /space glyphshow
-220.054688 0 m /bracketleft glyphshow
-224.736328 0 m /K glyphshow
-232.230469 0 m /W glyphshow
-244.095703 0 m /h glyphshow
-251.701172 0 m /bracketright glyphshow
+89.378906 0 m /bracketleft glyphshow
+94.060547 0 m /K glyphshow
+101.554688 0 m /W glyphshow
+113.419922 0 m /h glyphshow
+121.025391 0 m /slash glyphshow
+125.068359 0 m /o glyphshow
+132.410156 0 m /r glyphshow
+137.343750 0 m /b glyphshow
+144.960938 0 m /i glyphshow
+148.294922 0 m /t glyphshow
+153.000000 0 m /bracketright glyphshow
 grestore
 1.500 setlinewidth
 2 setlinecap
@@ -1444,7 +1429,6 @@ stroke
 grestore
 0.800 setlinewidth
 0 setlinejoin
-[] 0 setdash
 0.000 setgray
 gsave
 54 36 m
@@ -1470,7 +1454,7 @@ grestore
 14.400 scalefont
 setfont
 gsave
-67.665625 259.440000 translate
+91.712500 259.440000 translate
 0.000000 rotate
 0.000000 0 m /A glyphshow
 8.969360 0 m /v glyphshow
@@ -1506,12 +1490,6 @@ gsave
 238.944092 0 m /i glyphshow
 242.942261 0 m /e glyphshow
 251.795868 0 m /s glyphshow
-259.293320 0 m /space glyphshow
-263.867676 0 m /bracketleft glyphshow
-269.481979 0 m /K glyphshow
-278.418793 0 m /W glyphshow
-292.647797 0 m /h glyphshow
-301.768417 0 m /bracketright glyphshow
 grestore
 
 end
